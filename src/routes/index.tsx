@@ -5,6 +5,7 @@ import { Hero } from "@/components/Hero";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ServiceCard } from "@/components/ServiceCard";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
+import FAQSection from "@/components/FAQSection";
 
 // Import project showcase images
 import siteVisitRseDesk from "../assets/site_visit_rse_desk.jpg";
@@ -112,6 +113,9 @@ function HomePage() {
           </Link>
         </div>
       </section>
+
+          {/* FAQ Section */}
+          <FAQSection/>
 
       <section className="py-24 max-w-5xl mx-auto px-6 text-center">
         <SectionHeading
