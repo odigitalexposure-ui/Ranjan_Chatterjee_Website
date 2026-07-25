@@ -12,6 +12,7 @@ import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { FloatingContactButtons } from "@/components/FloatingContactButtons";
 
 function NotFoundComponent() {
   return (
@@ -85,6 +86,7 @@ function RootComponent() {
         <Navbar />
         <main className="flex-1"><Outlet /></main>
         <Footer />
+        <FloatingContactButtons/>
       </div>
     </QueryClientProvider>
   );
