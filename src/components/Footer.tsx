@@ -43,7 +43,7 @@ export function Footer() {
                 className="hover:text-gold transition-colors duration-300 break-all">
                 ✉ ranjanchatterjee1965@gmail.com</a>
               </li>
-            <li>📍 Jadavpur, Kolkata — 700 075</li>
+            <li>📍 3/106 A, Vivek Nagar, Jadavpur, Kolkata — 700 075</li>
           </ul>
         </div>
       </div>
