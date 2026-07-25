@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { Link } from "@tanstack/react-router";
-import logo from "@/assets/rc-logo.png.asset.json";
+// import logo from "@/assets/rc-logo.png.asset.json";
+import ranjan from "../assets/ranjan_chatterjee.jpg"
 
 export function Hero() {
   return (
@@ -58,7 +59,7 @@ export function Hero() {
         >
           <div className="absolute inset-0 bg-gradient-to-tr from-gold/20 to-transparent blur-3xl rounded-full" />
           <motion.img
-            src={logo.url}
+            src={ranjan}
             alt="RC All-In-One-Nexus"
             className="relative w-full max-w-md rounded-3xl glow-gold"
             animate={{ y: [0, -12, 0] }}

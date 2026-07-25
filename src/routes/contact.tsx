@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { motion } from "motion/react";
 import { useState } from "react";
 import { PageHeader, PageBody } from "@/components/PageShell";
+import ranjanSignboard from "../assets/ranjan_signboard.png";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -22,13 +23,6 @@ const cards = [
     phone: "+91 8240384694",
     email: "ranjanchatterjee1965@gmail.com",
     address: "3/106 A, Vivek Nagar, Jadavpur, Kolkata — 700 075",
-  },
-  {
-    name: "Arpan Kumar Majumder",
-    role: "IBBI Registered Valuer • Chartered Engineer",
-    phone: "+91 9038243544 / 9432201519",
-    email: "ak_majumdar04@yahoo.com",
-    address: "AA-284, Salt Lake City, West Bengal — 700 064",
   },
 ];
 
@@ -62,6 +56,20 @@ function ContactPage() {
                 </div>
               </motion.div>
             ))}
+
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+              className="rounded-2xl overflow-hidden gold-border bg-card/60 backdrop-blur p-2 aspect-[4/3] flex items-center justify-center"
+            >
+              <img
+                src={ranjanSignboard}
+                alt="Ranjan Chatterjee registration signboard"
+                className="w-full h-full object-contain rounded-xl"
+              />
+            </motion.div>
           </div>
 
           <motion.form
@@ -94,6 +102,27 @@ function ContactPage() {
             </button>
           </motion.form>
         </div>
+
+        {/* Google Map Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="mt-14 overflow-hidden rounded-2xl gold-border relative w-full h-[400px] bg-card/40"
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3686.098256774808!2d88.37567557529837!3d22.50049637954316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDMwJzAxLjgiTiA4OMKwMjInNDEuNyJF!5e0!3m2!1sen!2sin!4v1784962507310!5m2!1sen!2sin"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen={true}
+            loading="lazy"
+            referrerPolicy="strict-origin-when-cross-origin"
+            title="Office Location Map"
+            className="w-full h-full opacity-90 focus:outline-none"
+          />
+        </motion.div>
       </PageBody>
     </>
   );
