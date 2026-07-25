@@ -48,7 +48,15 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-gold/10 py-5 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} RC All-In-One-Nexus. All rights reserved.
+        © {new Date().getFullYear()} RC All-In-One-Nexus. Design & Developed by
+        <a
+              href="https://www.teamdeoskolkata.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold hover:text-red-700 transition-colors duration-300 ml-1"
+            >
+              Digital Exposure Online Service 
+            </a>.
       </div>
     </footer>
   );
