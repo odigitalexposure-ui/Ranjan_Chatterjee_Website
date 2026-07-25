@@ -19,8 +19,7 @@ export function Navbar() {
       initial={{ y: -30, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6 }}
-      className="sticky top-0 z-50 backdrop-blur-xl bg-navy-deep/70 border-b border-gold/20"
-    >
+      className="sticky top-0 z-50 backdrop-blur-xl bg-navy-deep/70 border-b border-gold/20">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3">
           <img src={logo} alt="RC All-In-One-Nexus" className="h-12 w-12 rounded-full object-cover ring-1 ring-gold/40" />
@@ -64,18 +63,18 @@ export function Navbar() {
       <AnimatePresence>
         {open && (
           <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            className="md:hidden overflow-hidden border-t border-gold/20"
-          >
-            <div className="px-6 py-4 flex flex-col gap-2">
+            initial={{ opacity: 0, y: -15 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -15 }}
+            transition={{ duration: 0.25 }}
+            className="absolute left-0 top-full w-full md:hidden bg-navy-deep/95 backdrop-blur-xl border-t border-gold/20 shadow-2xl">
+            <div className="px-6 py-4 flex flex-col items-center gap-2">
               {links.map((l) => (
                 <Link
                   key={l.to}
                   to={l.to}
                   onClick={() => setOpen(false)}
-                  className="py-2 text-foreground/80 hover:text-gold"
+                  className="w-full text-center py-3 text-lg font-medium text-foreground/80 hover:text-gold transition-colors duration-300"
                   activeProps={{ className: "text-gold" }}
                   activeOptions={{ exact: l.to === "/" }}
                 >

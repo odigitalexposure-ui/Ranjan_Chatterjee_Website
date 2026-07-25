@@ -40,11 +40,11 @@ Leadership & Government Service:
 • Water Resources (22+ yrs) — from Assistant Engineer to Chief Engineer, overseeing minor irrigation, deep tube wells, lift & solar irrigation schemes.
 • Agricultural Marketing (8+ yrs) — technical authority for licensing all cold storage facilities in West Bengal.
 • Bridge & Roof Co. (India) Ltd. (6 yrs) — supervised fabrication, erection & commissioning for ONGC, IOCL and SAIL.`,
-    contact: {
-      phone: "+91 9038243544 / 9432201519",
-      email: "ak_majumdar04@yahoo.com",
-      address: "AA-284, Salt Lake City, West Bengal — 700 064",
-    },
+    // contact: {
+    //   phone: "+91 9038243544 / 9432201519",
+    //   email: "ak_majumdar04@yahoo.com",
+    //   address: "AA-284, Salt Lake City, West Bengal — 700 064",
+    // },
   },
   {
     image: sourav,
