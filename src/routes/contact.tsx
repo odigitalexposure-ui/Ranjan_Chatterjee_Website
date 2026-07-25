@@ -76,7 +76,32 @@ function ContactPage() {
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            onSubmit={(e) => { e.preventDefault(); setSent(true); }}
+            onSubmit={(e: React.FormEvent<HTMLFormElement>) => {
+                e.preventDefault();
+
+                const form = new FormData(e.currentTarget);
+
+                const name = form.get("name")?.toString() || "";
+                const email = form.get("email")?.toString() || "";
+                const phone = form.get("phone")?.toString() || "";
+                const subject = form.get("subject")?.toString() || "";
+                const message = form.get("message")?.toString() || "";
+
+                const text = `*New Contact Form Enquiry*
+
+              👤 Name: ${name}
+              📧 Email: ${email}
+              📞 Phone: ${phone}
+              📌 Subject: ${subject}
+
+              💬 Message:
+              ${message}`;
+
+                window.location.href =
+                  `https://wa.me/918240384694?text=${encodeURIComponent(text)}`;
+
+                setSent(true);
+              }}
             className="lg:col-span-3 rounded-2xl p-8 bg-card/60 gold-border space-y-5"
           >
             <h3 className="font-display text-3xl gold-text">Send a Message</h3>
@@ -89,7 +114,9 @@ function ContactPage() {
             <div>
               <label className="text-xs uppercase tracking-[0.25em] text-gold/90">Message</label>
               <textarea
-                required rows={5}
+                name="message"
+                required
+                rows={5}
                 className="mt-2 w-full rounded-lg bg-navy-deep/60 gold-border px-4 py-3 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-gold/50"
                 placeholder="Tell us about your valuation or consultancy requirement..."
               />
