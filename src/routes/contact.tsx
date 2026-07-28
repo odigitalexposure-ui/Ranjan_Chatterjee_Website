@@ -7,9 +7,9 @@ import ranjanSignboard from "../assets/ranjan_signboard.png";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact | RC All-In-One-Nexus" },
-      { name: "description", content: "Reach out to RC All-In-One-Nexus for valuation, engineering and consultancy services. Based in Kolkata, serving across India." },
-      { property: "og:title", content: "Contact RC All-In-One-Nexus" },
+      { title: "Contact | All-In-One-Nexus" },
+      { name: "description", content: "Reach out to All-In-One-Nexus for valuation, engineering and consultancy services. Based in Kolkata, serving across India." },
+      { property: "og:title", content: "Contact  All-In-One-Nexus" },
       { property: "og:description", content: "Request a valuation or consultation today." },
     ],
   }),

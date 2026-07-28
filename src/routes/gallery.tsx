@@ -21,8 +21,8 @@ export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
       { title: "Gallery | RC All-In-One-Nexus" },
-      { name: "description", content: "Meet the people behind RC All-In-One-Nexus and see our portfolio of valuations, site visits, and inspections." },
-      { property: "og:title", content: "Gallery | RC All-In-One-Nexus" },
+      { name: "description", content: "Meet the people behind All-In-One-Nexus and see our portfolio of valuations, site visits, and inspections." },
+      { property: "og:title", content: "Gallery | All-In-One-Nexus" },
       { property: "og:description", content: "The team and projects behind our valuation and consultancy practice." },
     ],
   }),
@@ -78,7 +78,7 @@ function GalleryPage() {
       <PageHeader
         eyebrow="Our Team"
         title="Gallery"
-        subtitle="Meet the specialists behind RC All-In-One-Nexus. Tap any card to view the full profile."
+        subtitle="Meet the specialists behind All-In-One-Nexus. Tap any card to view the full profile."
       />
       
       <PageBody>

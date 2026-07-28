@@ -15,9 +15,9 @@ import projectTower from "../assets/project_tower.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "RC All-In-One-Nexus | Government Registered Valuers in Kolkata" },
+      { title: " All-In-One-Nexus |  Valuers in Kolkata" },
       { name: "description", content: "Trusted valuation, asset assessment and consultancy — 5,000+ cases and ₹5,000 Cr+ valued across industrial, commercial and residential sectors." },
-      { property: "og:title", content: "RC All-In-One-Nexus | Government Registered Valuers" },
+      { property: "og:title", content: " All-In-One-Nexus |  Valuers" },
       { property: "og:description", content: "Precision in valuation, trust in every report." },
     ],
   }),
@@ -29,7 +29,7 @@ const services = [
   { icon: "🏭", title: "Industrial Valuation", desc: "Plant, machinery, factories & manufacturing units." },
   { icon: "🏢", title: "Commercial Assets", desc: "Offices, retail, warehouses & mixed-use properties." },
   { icon: "🏠", title: "Residential", desc: "Apartments, villas, land & housing societies." },
-  { icon: "🏦", title: "Banking & Finance", desc: "Loan security, NPA & bank-panel valuations." },
+  { icon: "🏦", title: "Banking & Finance", desc: "NPA & bank-panel valuations." },
   { icon: "⚙️", title: "Plant & Machinery", desc: "IBBI registered valuers for P&M class of assets." },
   { icon: "📜", title: "Statutory", desc: "Income Tax, Wealth Tax & Capital Gains reports." },
 ];
@@ -60,8 +60,8 @@ function HomePage() {
       <section className="py-24 max-w-7xl mx-auto px-6">
         <SectionHeading
           eyebrow="What We Do"
-          title="A Nexus of Valuation Expertise"
-          subtitle="Comprehensive, government-registered valuation and consultancy services under one roof."
+          title="A Nexus of Valuer Expertise"
+          subtitle="Comprehensive, valuation by Govt regd.valuer, IBBI valuer, engineering consultancy and other services by Chartered Engineer, legal experts of High Court and Supreme Court under one roof."
         />
         <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((s, i) => <ServiceCard key={s.title} {...s} index={i} />)}

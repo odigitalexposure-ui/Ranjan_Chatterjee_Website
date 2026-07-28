@@ -10,8 +10,8 @@ export function Footer() {
           <div className="flex items-center gap-3">
             <img src={RC_logo} alt="RC" className="h-14 w-14 rounded-full ring-1 ring-gold/40" />
             <div>
-              <div className="font-display text-2xl gold-text">RC All-In-One-Nexus</div>
-              <div className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Valuation • Consultancy • Engineering</div>
+              <div className="font-display text-2xl gold-text">All-In-One-Nexus</div>
+              <div className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Valuation • Consultancy • Engineering • Legal Expert</div>
             </div>
           </div>
           <p className="mt-4 text-sm text-muted-foreground max-w-md">
@@ -48,7 +48,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-gold/10 py-5 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} RC All-In-One-Nexus. Design & Developed by
+        © {new Date().getFullYear()} All-In-One-Nexus. Design & Developed by
         <a
               href="https://www.teamdeoskolkata.in/"
               target="_blank"

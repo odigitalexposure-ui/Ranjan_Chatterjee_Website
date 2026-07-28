@@ -27,6 +27,26 @@ Having successfully completed more than 5,000 valuation cases with a cumulative 
     },
   },
   {
+    image: last,
+    name: "SAKTI PADA BERA",
+    role: "Profession: Consultant & Valuer",
+    qualifications: "B.Sc. AMIE, Professional Qualification: FIV(I), MIE, C.Engg  Court, Registered Valuer- Ministry of Finance Govt. of India",
+    shortDesc: "  As   Senior Executive of Covenanted Company in the position of Dy- Works Manager both in Production & execution of Electrical projects in West Bengal & Orrissa  in World Bank financed  Project  in REC, Coal ",
+    fullDesc: `• 10. Experience : As Project Engineer – Executed Projects  Factories at Kolkata & Chennai.
+                              As  In Charge of Indigenization/ Import Substitution  of Imported items of 
+                                         Electrical HT & LT Equipment (origin Japan), and   in Defence  related 
+                                          Electrical & Mechanical Equipment (origin Russia & Sweden).
+  As   Senior Executive of Covenanted Company in the position of Dy- Works Manager both in Production & execution of Electrical projects in West Bengal & Orrissa  in World Bank financed  Project  in REC, Coal , .also in Steel Plant  RSP
+                        As Project Manager Installation, Testing Commissioning of Electrical Substation of 
+                       capacity from 11 KV/ 0.45 KV, 33KV/ 11 KV, 133 KV/33KV SCADA operated also; total about 4000 nos. 33KV/ 25 KV Sub Station for Rail ways which includes the first Science City of India
+Assistance to design of Coupler of Fast moving Trains  like Satabdi & Rajdhani Express.
+Checking the Solar Generating Plant of 10MVA in 33KV /11 KV feeding in Pokhran Rajasthan, Consultation of Thermal Power Plant in Santaldihi, Assansole- Disergarh& 600 Sq,KM  HT distribution line and related Substations-30 Nos.
+Monitoring of high rise Building  in all aspects from Pilling to completion of G+62 Stories, B+G+ 34 Stories. Hospitals in BOT concept.
+ As valuer  executed valuation both from Private  & Govt Banks  to the tune of 1.75Lakh Crore  and in Corporate sector like Andrew Yule & Co Ltd, Dredging Corporation of India, VEEDOL,HMC, Indian Cables 50000 crore ; In Income Tax Dept  of about 1500 Crore.
+As conducting Commission of Calcutta High Court for long period.
+Checking the suitable completion & operation of Rice Mill, Flower Mill, Cold Storage, Oil Mill, Dairy Plant, Mineral Water Plant,  Casting Plant, special Type  Paint Mfg Plant..`,
+  },
+  {
     image: arpan,
     name: "Arpan Kumar Majumder",
     role: "IBBI Registered Valuer • Chartered Engineer",
@@ -74,26 +94,6 @@ Leadership & Government Service:
 • Corporate Law advisory and litigation.
 • Represents clients before the Taxation Tribunal, High Courts and the Supreme Court of India.
 • Provides end-to-end advisory on tax planning, compliance, assessments, appeals and corporate law matters.`,
-  },
-  {
-    image: last,
-    name: "SAKTI PAA BERA",
-    role: "Profession: Consultant & Valuer",
-    qualifications: "B.Sc. AMIE, Professional Qualification: FIV(I), MIE, C.Engg  Court, Registered Valuer- Ministry of Finance Govt. of India",
-    shortDesc: "  As   Senior Executive of Covenanted Company in the position of Dy- Works Manager both in Production & execution of Electrical projects in West Bengal & Orrissa  in World Bank financed  Project  in REC, Coal ",
-    fullDesc: `• 10. Experience : As Project Engineer – Executed Projects  Factories at Kolkata & Chennai.
-                              As  In Charge of Indigenization/ Import Substitution  of Imported items of 
-                                         Electrical HT & LT Equipment (origin Japan), and   in Defence  related 
-                                          Electrical & Mechanical Equipment (origin Russia & Sweden).
-  As   Senior Executive of Covenanted Company in the position of Dy- Works Manager both in Production & execution of Electrical projects in West Bengal & Orrissa  in World Bank financed  Project  in REC, Coal , .also in Steel Plant  RSP
-                        As Project Manager Installation, Testing Commissioning of Electrical Substation of 
-                       capacity from 11 KV/ 0.45 KV, 33KV/ 11 KV, 133 KV/33KV SCADA operated also; total about 4000 nos. 33KV/ 25 KV Sub Station for Rail ways which includes the first Science City of India
-Assistance to design of Coupler of Fast moving Trains  like Satabdi & Rajdhani Express.
-Checking the Solar Generating Plant of 10MVA in 33KV /11 KV feeding in Pokhran Rajasthan, Consultation of Thermal Power Plant in Santaldihi, Assansole- Disergarh& 600 Sq,KM  HT distribution line and related Substations-30 Nos.
-Monitoring of high rise Building  in all aspects from Pilling to completion of G+62 Stories, B+G+ 34 Stories. Hospitals in BOT concept.
- As valuer  executed valuation both from Private  & Govt Banks  to the tune of 1.75Lakh Crore  and in Corporate sector like Andrew Yule & Co Ltd, Dredging Corporation of India, VEEDOL,HMC, Indian Cables 50000 crore ; In Income Tax Dept  of about 1500 Crore.
-As conducting Commission of Calcutta High Court for long period.
-Checking the suitable completion & operation of Rice Mill, Flower Mill, Cold Storage, Oil Mill, Dairy Plant, Mineral Water Plant,  Casting Plant, special Type  Paint Mfg Plant..`,
   },
   {
     image: saswati,

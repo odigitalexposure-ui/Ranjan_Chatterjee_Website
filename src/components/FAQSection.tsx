@@ -4,9 +4,9 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    question: "What services does RC All-In-One-Nexus provide?",
+    question: "What services does All-In-One-Nexus provide?",
     answer:
-      "RC All-In-One-Nexus provides Government-approved valuation, engineering consultancy, project assessment, property valuation, industrial valuation, bank valuation, financial institution valuation, technical inspection, and multidisciplinary consultancy services across India.",
+      "All-In-One-Nexus provides valuation, engineering consultancy, project assessment, property valuation, industrial valuation, bank valuation, financial institution valuation, technical inspection, and multidisciplinary consultancy services across India.",
   },
   {
     question: "Who is Ranjan Chatterjee?",
@@ -49,7 +49,7 @@ const faqs = [
       "You can contact us by phone, email, WhatsApp, or through the contact form on this website. We will discuss your requirements and guide you through the valuation process.",
   },
   {
-    question: "How can I contact RC All-In-One-Nexus?",
+    question: "How can I contact All-In-One-Nexus?",
     answer:
       "You can reach us at +91 8240384694, email us at ranjanchatterjee1965@gmail.com, or visit our office at 3/106 Vivek Nagar, Jadavpur, Kolkata – 700075.",
   },
@@ -74,8 +74,8 @@ function FAQSection() {
           <h2 className="font-display text-5xl mt-4 gold-text">Everything You Need to Know</h2>
 
           <p className="mt-5 text-muted-foreground max-w-3xl mx-auto">
-            Find answers to the most commonly asked questions regarding our Government-approved
-            valuation, engineering consultancy, property assessment, and professional advisory
+            Find answers to the most commonly asked questions regarding our
+            valuer, engineering consultancy, property assessment, and professional advisory
             services.
           </p>
         </motion.div>

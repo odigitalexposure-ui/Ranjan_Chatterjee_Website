@@ -6,9 +6,9 @@ import { SectionHeading } from "@/components/SectionHeading";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services | RC All-In-One-Nexus" },
+      { title: "Services | All-In-One-Nexus" },
       { name: "description", content: "Comprehensive valuation and consultancy services — industrial, commercial, residential, plant & machinery, banking and statutory reports." },
-      { property: "og:title", content: "Services | RC All-In-One-Nexus" },
+      { property: "og:title", content: "Services | All-In-One-Nexus" },
       { property: "og:description", content: "Comprehensive valuation and consultancy services across all asset classes." },
     ],
   }),
@@ -33,7 +33,7 @@ function ServicesPage() {
       <PageHeader
         eyebrow="What We Offer"
         title="Our Services"
-        subtitle="A complete suite of valuation, engineering and consultancy services — precise, compliant and trusted by institutions across India."
+        subtitle="A complete suite of valuation like immovable property, plant and machinery by Govt. Regd. Valuer , IBBI Valuer, engineering and consultancy services — precise, compliant and trusted by institutions across India."
       />
       <PageBody>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

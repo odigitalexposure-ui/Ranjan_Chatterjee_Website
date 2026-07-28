@@ -24,8 +24,9 @@ export function Navbar() {
         <Link to="/" className="flex items-center gap-3">
           <img src={logo} alt="RC All-In-One-Nexus" className="h-12 w-12 rounded-full object-cover ring-1 ring-gold/40" />
           <div className="leading-tight">
-            <div className="font-display text-xl gold-text tracking-wider">RC NEXUS</div>
-            <div className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">All-In-One-Nexus</div>
+            <div className="font-display text-xl gold-text tracking-wider">All-In-One-Nexus</div>
+            {/* <div className="text-[10px] uppercase tracking-[0.25em]           text-muted-foreground">All-In-One-Nexus
+            </div> */}
           </div>
         </Link>
 

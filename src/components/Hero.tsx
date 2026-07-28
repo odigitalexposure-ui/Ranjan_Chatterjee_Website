@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { Link } from "@tanstack/react-router";
 // import logo from "@/assets/rc-logo.png.asset.json";
-import ranjan from "../assets/ranjan_chatterjee.jpg"
+import ranjan from "../assets/ranjan_chatterjee.png"
 
 export function Hero() {
   return (
@@ -17,16 +17,16 @@ export function Hero() {
         >
           <div className="inline-flex items-center gap-2 rounded-full gold-border px-4 py-1.5 text-xs uppercase tracking-[0.3em] text-gold mb-6">
             <span className="h-1.5 w-1.5 rounded-full bg-gold animate-pulse" />
-            Govt. Registered Valuers
+            {/*Govt. Registered*/} Valuer
           </div>
           <h1 className="font-display text-5xl md:text-7xl leading-[1.05]">
-            Precision in <span className="gold-text italic">Valuation</span>,
+            Precision in <span className="gold-text italic">Valuer</span>,
             <br /> Trust in Every Report.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-xl">
-            RC All-In-One-Nexus brings together decades of expertise in
+            All-In-One-Nexus brings together decades of expertise in
             valuation, engineering and consultancy — delivering assessments
-            trusted by banks, courts, corporates and the Government of India.
+            trusted by banks, courts, corporates {/*and the Government of India*/}.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link to="/services" className="px-6 py-3 rounded-full bg-gold text-navy-deep font-medium hover:bg-gold-soft transition-all glow-gold">
@@ -41,7 +41,7 @@ export function Hero() {
             {[
               { k: "5,000+", v: "Cases" },
               { k: "₹5,000 Cr+", v: "Valued" },
-              { k: "36+ Yrs", v: "Experience" },
+              { k: "20+ Yrs", v: "Experience" },
             ].map((s) => (
               <div key={s.v}>
                 <div className="font-display text-3xl gold-text">{s.k}</div>
