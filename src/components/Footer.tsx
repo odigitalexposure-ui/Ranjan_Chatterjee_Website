@@ -15,7 +15,7 @@ export function Footer() {
             </div>
           </div>
           <p className="mt-4 text-sm text-muted-foreground max-w-md">
-            Government registered valuers delivering trusted, precise, multidisciplinary
+             Valuers delivering trusted, precise, multidisciplinary
             valuation and consultancy services across India for over two decades.
           </p>
         </div>
