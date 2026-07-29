@@ -20,7 +20,7 @@ export function Hero() {
             {/*Govt. Registered*/} Valuer
           </div>
           <h1 className="font-display text-5xl md:text-7xl leading-[1.05]">
-            Precision in <span className="gold-text italic">Valuer</span>,
+            Precision in <span className="gold-text italic">Valuation</span>,
             <br /> Trust in Every Report.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-xl">
