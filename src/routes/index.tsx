@@ -42,7 +42,7 @@ const homeProjects = [
   },
   {
     src: siteVisitRseDesk,
-    title: "Site Inspection - RSE Sports Republic",
+    title: "Site Inspection - RISE Sports Republic",
     description: "Valuation inspection conducted on-site at the RSE Sports Republic office and sports complex.",
   },
   {
@@ -60,7 +60,7 @@ function HomePage() {
       <section className="py-24 max-w-7xl mx-auto px-6">
         <SectionHeading
           eyebrow="What We Do"
-          title="A Nexus of Valuer Expertise"
+          title="A Nexus of Expertise"
           subtitle="Comprehensive, valuation by Govt regd.valuer, IBBI valuer, engineering consultancy and other services by Chartered Engineer, legal experts of High Court and Supreme Court under one roof."
         />
         <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

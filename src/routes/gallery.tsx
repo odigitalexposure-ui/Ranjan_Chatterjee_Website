@@ -20,7 +20,7 @@ import projectModernComplex from "../assets/project_modern_complex.jpg";
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
-      { title: "Gallery | RC All-In-One-Nexus" },
+      { title: "Gallery | All-In-One-Nexus" },
       { name: "description", content: "Meet the people behind All-In-One-Nexus and see our portfolio of valuations, site visits, and inspections." },
       { property: "og:title", content: "Gallery | All-In-One-Nexus" },
       { property: "og:description", content: "The team and projects behind our valuation and consultancy practice." },
@@ -32,17 +32,17 @@ export const Route = createFileRoute("/gallery")({
 const projectImages = [
   {
     src: siteVisitRseDesk,
-    title: "Site Inspection - RSE Sports Republic",
+    title: "Site Inspection - RISE Project Valuation Report",
     description: "Valuation inspection conducted on-site at the RSE Sports Republic office and sports complex.",
   },
   {
     src: siteVisitRseModel,
-    title: "Project Model Inspection - RSE",
+    title: "Project Model Inspection - Project Valuation Report",
     description: "Technical review and valuation assessment of the upcoming RSE Sports Republic masterplan model.",
   },
   {
     src: siteVisitSkygaze,
-    title: "Project Model Review - Skygaze",
+    title: "Project Model Review - Merlin Skygaze Project Valuation Report",
     description: "Inspection of the high-rise Skygaze residential project scale model during planning and advisory phase.",
   },
   {
@@ -52,22 +52,22 @@ const projectImages = [
   },
   {
     src: siteVisitConstruction,
-    title: "On-Site Valuation - Construction Phase",
+    title: "On-Site Valuation - Atmosphere Flat Valuation Report",
     description: "Inspection and progress assessment at a major real estate development site for valuation purposes.",
   },
   {
     src: siteVisitOrangeTarp,
-    title: "Structural Valuation - Construction Site",
+    title: "Structural Valuation - Project Inspection",
     description: "Ongoing inspection of reinforcement steel and foundation work at a residential project site.",
   },
   {
     src: siteVisitScaffolding,
-    title: "On-Site Inspection - Project Under Construction",
+    title: "On-Site - Project Inspection",
     description: "Physical inspection of structural progress, brickwork, and scaffolding of a multi-story housing project.",
   },
   {
     src: projectModernComplex,
-    title: "Asset Valuation - Luxury Residential Complex",
+    title: "Asset Valuation - Ambuja Utalika Flat Valuation",
     description: "Completed valuation of a premium high-rise residential complex, including common facilities and parking areas.",
   },
 ];

@@ -3,7 +3,7 @@
 // import sourav from "@/assets/sourav.png.asset.json";
 // import subhasis from "@/assets/subhasis.png.asset.json";
 import type { GalleryPerson } from "@/components/GalleryCard";
-import ranjan from "../assets/ranjan_chatterjee.jpg"
+import ranjan from "../assets/ranjan_chatterjee.png"
 import arpan from "../assets/arpan_kumar.jpg"
 import sourav from "../assets/sourav.jpg"
 import subhasis from "../assets/subhasis.jpg"
