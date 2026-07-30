@@ -16,6 +16,7 @@ import siteVisitSkygaze from "../assets/site_visit_skygaze.jpg";
 import siteVisitOrangeTarp from "../assets/site_visit_orange_tarp.jpg";
 import siteVisitScaffolding from "../assets/site_visit_scaffolding.jpg";
 import projectModernComplex from "../assets/project_modern_complex.jpg";
+import vinayak from "../assets/vinayak.jpeg";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -33,42 +34,47 @@ const projectImages = [
   {
     src: siteVisitRseDesk,
     title: "Site Inspection - RISE Project Valuation Report",
-    description: "Valuation inspection conducted on-site at the RSE Sports Republic office and sports complex.",
+    description: "Project inspection and project valuation report of Merlin RISE Sports Republic ",
   },
   {
     src: siteVisitRseModel,
     title: "Project Model Inspection - Project Valuation Report",
-    description: "Technical review and valuation assessment of the upcoming RSE Sports Republic masterplan model.",
+    description: "Project inspection and project valuation report of Merlin RISE Sports Republic",
   },
   {
     src: siteVisitSkygaze,
     title: "Project Model Review - Merlin Skygaze Project Valuation Report",
-    description: "Inspection of the high-rise Skygaze residential project scale model during planning and advisory phase.",
+    description: "Project inspection and project valuation  report of Merlin Skygaze",
   },
   {
     src: projectTower,
-    title: "Asset Valuation - Residential Skyscraper",
-    description: "Comprehensive valuation and site analysis of a newly constructed modern multi-story residential building.",
+    title: "Atmosphere - Flat inspection and valuation ",
+    // description: "Comprehensive valuation and site analysis of a newly constructed modern multi-story residential building.",
   },
   {
     src: siteVisitConstruction,
     title: "On-Site Valuation - Atmosphere Flat Valuation Report",
-    description: "Inspection and progress assessment at a major real estate development site for valuation purposes.",
+    description: "Project inspection and project valuation report of Merlin RISE Sports Republic report",
+  },
+  {
+    src: vinayak,
+    title: "Vinayak Complex - Project Inspection And Valuation Report",
+    description: "Project inspection and project valuation report of Vinayak Residential Complex",
   },
   {
     src: siteVisitOrangeTarp,
     title: "Structural Valuation - Project Inspection",
-    description: "Ongoing inspection of reinforcement steel and foundation work at a residential project site.",
+    description: "Project inspection and project valuation report of Vinayak Residential Complex.",
   },
   {
     src: siteVisitScaffolding,
     title: "On-Site - Project Inspection",
-    description: "Physical inspection of structural progress, brickwork, and scaffolding of a multi-story housing project.",
+    description: "Project inspection and project valuation report of Vinayak Residential Complex.",
   },
   {
     src: projectModernComplex,
-    title: "Asset Valuation - Ambuja Utalika Flat Valuation",
-    description: "Completed valuation of a premium high-rise residential complex, including common facilities and parking areas.",
+    title: "Ambuja Utalika Flat Valuation",
+    description: "Flat valuation report of Ambuja Utalika",
   },
 ];
 

@@ -25,7 +25,7 @@ export function Hero() {
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-xl">
             All-In-One-Nexus brings together decades of expertise in
-            valuation, engineering and consultancy — delivering assessments
+            valuation, engineering consultancy services, legal services — delivering assessments
             trusted by banks, courts, corporates {/*and the Government of India*/}.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">

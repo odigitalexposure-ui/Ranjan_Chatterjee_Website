@@ -33,7 +33,7 @@ function ServicesPage() {
       <PageHeader
         eyebrow="What We Offer"
         title="Our Services"
-        subtitle="A complete suite of valuation like immovable property, plant and machinery by Govt. Regd. Valuer , IBBI Valuer, engineering and consultancy services — precise, compliant and trusted by institutions across India."
+        subtitle="A complete suite of valuation like immovable property, plant and machinery by Govt. Regd. Valuer , IBBI Valuer, engineering consultancy services along with legal consultancy services — precise, compliant and trusted by institutions across India."
       />
       <PageBody>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
