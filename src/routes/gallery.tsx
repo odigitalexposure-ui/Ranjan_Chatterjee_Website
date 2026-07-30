@@ -17,6 +17,7 @@ import siteVisitOrangeTarp from "../assets/site_visit_orange_tarp.jpg";
 import siteVisitScaffolding from "../assets/site_visit_scaffolding.jpg";
 import projectModernComplex from "../assets/project_modern_complex.jpg";
 import vinayak from "../assets/vinayak.jpeg";
+import { title } from "process";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -33,18 +34,15 @@ export const Route = createFileRoute("/gallery")({
 const projectImages = [
   {
     src: siteVisitRseDesk,
-    title: "Site Inspection - RISE Project Valuation Report",
-    description: "Project inspection and project valuation report of Merlin RISE Sports Republic ",
+    title: "Project inspection and project valuation report of Merlin RISE Sports Republic complex ",
   },
   {
     src: siteVisitRseModel,
-    title: "Project Model Inspection - Project Valuation Report",
-    description: "Project inspection and project valuation report of Merlin RISE Sports Republic",
+    title: "Project inspection and project valuation report of Merlin RISE Sports Republic complex",
   },
   {
     src: siteVisitSkygaze,
-    title: "Project Model Review - Merlin Skygaze Project Valuation Report",
-    description: "Project inspection and project valuation  report of Merlin Skygaze",
+    title: "Project inspection and project valuation  report of Merlin Skygaze complex",
   },
   {
     src: projectTower,
@@ -53,28 +51,28 @@ const projectImages = [
   },
   {
     src: siteVisitConstruction,
-    title: "On-Site Valuation - Atmosphere Flat Valuation Report",
-    description: "Project inspection and project valuation report of Merlin RISE Sports Republic report",
+    // title: "On-Site Valuation - Atmosphere Flat Valuation Report",
+    title: "Project inspection and project valuation report of Merlin RISE Sports Republic complex",
   },
   {
     src: vinayak,
-    title: "Vinayak Complex - Project Inspection And Valuation Report",
-    description: "Project inspection and project valuation report of Vinayak Residential Complex",
+    // title: "Vinayak Complex - Project Inspection And Valuation Report",
+    title: "Project inspection and project valuation report of Vinayak Residential Complex",
   },
   {
     src: siteVisitOrangeTarp,
-    title: "Structural Valuation - Project Inspection",
-    description: "Project inspection and project valuation report of Vinayak Residential Complex.",
+    // title: "Structural Valuation - Project Inspection",
+    title: "Project inspection and project valuation report of Vinayak Residential Complex.",
   },
   {
     src: siteVisitScaffolding,
-    title: "On-Site - Project Inspection",
-    description: "Project inspection and project valuation report of Vinayak Residential Complex.",
+    // title: "On-Site - Project Inspection",
+    title: "Project inspection and project valuation report of Vinayak Residential Complex.",
   },
   {
     src: projectModernComplex,
     title: "Ambuja Utalika Flat Valuation",
-    description: "Flat valuation report of Ambuja Utalika",
+    // description: "Flat valuation report of Ambuja Utalika",
   },
 ];
 
