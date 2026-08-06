@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { Link } from "@tanstack/react-router";
 // import logo from "@/assets/rc-logo.png.asset.json";
-import ranjan from "../assets/ranjan_chatterjee.png"
+import ranjan from "../assets/ranjan_chatterjee.jpeg"
 
 export function Hero() {
   return (
